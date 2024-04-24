@@ -1,0 +1,42 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Hack typeface https://github.com/source-foundry/Hack
+ * License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+*/
+
+@font-face {
+  font-family: 'Hack';
+  src: url('25a4dc822df3254309d0667b8e461499.woff2') format('woff2'),
+       url('05d4e5c515a8e542d6c36cccbc98bd05.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('154c97ffc71d8cb87c7b249bd6f42d5c.woff2') format('woff2'),
+       url('9133e8b95c743238069dca848fd2c7e5.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('9bdb2b7815f2ee380326d5e908aa53ed.woff2') format('woff2'),
+       url('a89d30c4557ca49295771c4e23468c74.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('4d078347491b120c7dba1119d809f48d.woff2') format('woff2'),
+       url('9dfeb7f3176a899ea57663580cb8525b.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
