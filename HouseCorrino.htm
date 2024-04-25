@@ -54,6 +54,7 @@
 </style>
 
 <body>
+    <div id="infoDiv"></div>
         <div class="banner"><img src="Assets/Corrino/CorrinoBanner.png" alt="Corrino"></div>
         <div class="title">
             <img src="Assets/Corrino/CorrinoToken.png" alt="Corrino">
@@ -79,8 +80,41 @@
         </div>
     </div>
     <div class="container">
-
+        <h3>Military Power</h3>
+    <p>House Corrino controls the Sardaukar,
+    who are the most able soldiers in
+    the Known Universe. The Landsraad
+    believe it is impossible to beat the
+    Sardaukar on the field of battle unless
+    all the other Houses join together
+    against Corrino — and there is
+    little prospect of that happening.
+    Although dependent on the Guild for
+    transportation, no one doubts House
+    Corrino holds military superiority over
+    all other Houses in the Imperium.</p>
     </div>
 </body>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Function to show password prompt
+        function showPasswordPrompt() {
+            // Create a password prompt
+            var password = prompt("Please enter the password:");
+            
+            // Check if the password is correct
+            if (password === "LionShare") { // Replace "your_password_here" with the actual password
+                // Fill a div with certain information
+                var div = document.getElementById("infoDiv");
+                div.innerHTML = "Welcome! You have successfully logged in.";
+            } else {
+                // If the password is wrong, return to index
+                window.location.href = "index.htm"; // Replace "index.html" with your actual index page
+            }
+        }
+        
+        // Call the function to show the password prompt
+        showPasswordPrompt();
+    });
+    </script>
 </html>
